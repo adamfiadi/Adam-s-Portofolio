@@ -3469,6 +3469,7 @@ button:disabled,
   transition: transform 0.5s ease;
   -webkit-overflow-scrolling: touch;
   background: #21b2a6;
+  background-image: linear-gradient(to bottom, red, blue);
   color: #ffffff;
   height: 100%;
   max-width: 80%;
