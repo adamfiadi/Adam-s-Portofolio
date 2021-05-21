@@ -2193,7 +2193,7 @@ input[type="radio"] + label:before {
 
 /* Image */
 
-.image {
+iframe .image {
   border-radius: 3px;
   border: 0;
   display: inline-block;
@@ -2869,7 +2869,7 @@ button:disabled,
 }
 
 @media screen and (max-width: 736px) {
-  .spotlight .content {
+  iframe .spotlight .content {
     padding: 3em 2em 1em 2em;
   }
 }
@@ -2908,6 +2908,13 @@ button:disabled,
 
   .wrapper > .inner .presentation {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 464px) {
+  iframe {
+    width: 266px;
+    height: 150px;
   }
 }
 
